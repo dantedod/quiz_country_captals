@@ -8,14 +8,14 @@ use Illuminate\View\Component;
 
 class MainLayout extends Component
 {
-  public string $pageTitle;
+  public string $page;
   /**
    * Create a new component instance.
    */
   public function __construct(
     string $pageTitle
   ) {
-    $this->pageTitle = $pageTitle;
+    $this->page = $pageTitle;
   }
 
   /**
