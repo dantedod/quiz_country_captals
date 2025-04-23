@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MainController::class, 'startGame'])->name('start_game');
 Route::post('/', [MainController::class, 'prepareGame'])->name('prepare_game');
-
+teste
 Route::get('/game', [MainController::class, 'game'])->name('game');
 Route::get('answer/{answer}', [MainController::class, 'answer'])->name('answer');
 route::get('/next_question', [MainController::class, 'nextQuestion'])->name('nextQuestion');
